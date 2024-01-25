@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Boundry.UpdateCustomerController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@shutterstock_745544935.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="ListTickets" layoutX="345.0" layoutY="96.0" prefHeight="163.0" prefWidth="198.0" style="-fx-opacity: 0.89;" />
+      <ListView fx:id="listRecomnnended" layoutX="40.0" layoutY="96.0" prefHeight="163.0" prefWidth="213.0" style="-fx-opacity: 0.89;" />
+      <Button fx:id="updateCustomerBtn" layoutX="187.0" layoutY="328.0" mnemonicParsing="false" onAction="#updateCustomerAction" prefHeight="25.0" prefWidth="223.0" text="Upadate Customer and remove ticket" />
+      <Line endX="-65.0" endY="269.0" layoutX="364.0" layoutY="45.0" startX="-65.0" startY="-3.814697265625E-6" />
+      <Label layoutX="58.0" layoutY="66.0" text="Recomended flights">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="345.0" layoutY="66.0" text="Customer flight tickets">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="154.0" layoutY="31.0" prefHeight="25.0" prefWidth="198.0" style="-fx-background-color: white; -fx-opacity: 0.89;">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Button fx:id="recomndsBtn" layoutX="47.0" layoutY="270.0" mnemonicParsing="false" onAction="#recomndsAction" prefHeight="25.0" prefWidth="199.0" text="Generate Recommended flights" />
+      <Label layoutX="10.0" layoutY="30.0" text="Customer email:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

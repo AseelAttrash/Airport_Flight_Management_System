@@ -1,0 +1,109 @@
+{
+    "flights" : [
+    {
+        "flightID" : "123",
+        "LandingCity": "Brazil",
+        "DepartureCity" : "Israel",
+        "DepartureDate": "2022-01-02",
+        "FlightTime" : "130",
+        "FlightStatus" : "Canceled",
+        "PlaneTailNumber" : "22",
+        "DepartureHour":"10:00:00",
+        "isCancelled" : "true",
+        "seats":[
+            {
+             "Id":"223",
+             "LineNumber":"5",
+             "LineNumberInRow":"7",
+             "PlaneTailNumber":"22",
+             "seatClass":"firstClass"
+            },
+            {
+                "Id":"2424",
+             "LineNumber":"6",
+             "LineNumberInRow":"11",
+             "PlaneTailNumber":"22",
+             "seatClass":"TouristsClass"
+            },
+            {
+                "Id":"1412",
+                "LineNumber":"4",
+                "LineNumberInRow":"6",
+                "PlaneTailNumber":"22",
+                "seatClass":"BusinessClass"
+            },
+            {
+                "Id":"324234",
+                "LineNumber":"16",
+                "LineNumberInRow":"5",
+                "PlaneTailNumber":"22",
+                "seatClass":"BusinessClass"
+            }
+ 
+        ]
+    },
+    {
+        "flightID" : "223",
+       "LandingCity": "Spain",
+       "DepartureCity" : "Israel",
+       "DepartureDate": "2021-12-20",
+       "FlightTime" : "15",
+       "FlightStatus" : "delayed",
+       "PlaneTailNumber" : "11",
+       "DepartureHour":"12:00:00",
+       "isCancelled" : "false",
+       "seats":[
+           {
+            "Id":"24",
+            "LineNumber":"11",
+            "LineNumberInRow":"2",
+            "PlaneTailNumber":"11",
+            "seatClass":"TouristsClass"
+           },
+           {
+            "Id":"25",
+            "LineNumber":"11",
+            "LineNumberInRow":"5",
+            "PlaneTailNumber":"11",
+            "seatClass":"TouristsClass"
+           },
+           {
+            "Id":"26",
+            "LineNumber":"45",
+            "LineNumberInRow":"7",
+            "PlaneTailNumber":"11",
+            "seatClass":"BusinessClass"
+           },
+           {
+            "Id":"3423",
+            "LineNumber":"1",
+            "LineNumberInRow":"1",
+            "PlaneTailNumber":"11",
+            "seatClass":"FirstClass"
+           },
+           {
+            "Id":"44",
+            "LineNumber":"1",
+            "LineNumberInRow":"6",
+            "PlaneTailNumber":"11",
+            "seatClass":"firstClass"
+           },
+           {
+            "Id":"43525",
+            "LineNumber":"55",
+            "LineNumberInRow":"1",
+            "PlaneTailNumber":"11",
+            "seatClass":"BusinessClass"
+           },
+           {
+            "Id":"3432",
+            "LineNumber":"6",
+            "LineNumberInRow":"6",
+            "PlaneTailNumber":"11",
+            "seatClass":"business"
+           }
+
+       ]
+    }
+ ]
+}

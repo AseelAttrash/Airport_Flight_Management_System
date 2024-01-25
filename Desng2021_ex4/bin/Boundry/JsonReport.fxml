@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Boundry.JsonReportController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@219315-covid-airport-mc-1320.jpg" />
+         </image>
+      </ImageView>
+      <ListView fx:id="List" layoutX="21.0" layoutY="33.0" prefHeight="213.0" prefWidth="562.0" style="-fx-opacity: 0.89;" />
+      <Button fx:id="backBtn" mnemonicParsing="false" onAction="#backAction" style="-fx-background-color: #675656;" text="back" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <AnchorPane layoutX="123.0" layoutY="254.0" prefHeight="124.0" prefWidth="307.0" style="-fx-background-color: white; -fx-opacity: 0.89;">
+         <children>
+            <Button fx:id="json" layoutX="97.0" layoutY="28.0" mnemonicParsing="false" onAction="#jsonaction" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #675656;" text="import Json" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="23.0" layoutY="18.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on import Json to import Flights From Json file" />
+            <Button fx:id="seats" layoutX="88.0" layoutY="88.0" mnemonicParsing="false" onAction="#seatsAction" prefHeight="19.0" prefWidth="115.0" style="-fx-background-color: #675656;" text="Flight Seats" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <Text layoutX="11.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="you can choose a flight and click Flight Seats to see the seats details on the specific Flight" wrappingWidth="287.5286865234375" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
